@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='natchecker',
-    version='0.1.3',
+    version='0.2.0',
     author='onewesong',
     author_email='onewesong@gmail.com',
     url='https://github.com/onewesong/natchecker',
@@ -16,7 +16,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['argparse'],
+    install_requires=['argparse', 'ipaddress', 'netifaces'],
     entry_points={'console_scripts': [
         'natchecker=src.main:main',
     ]},
