@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='natchecker',
-    version='0.2.0',
+    version='0.2.1',
     author='onewesong',
     author_email='onewesong@gmail.com',
     url='https://github.com/onewesong/natchecker',

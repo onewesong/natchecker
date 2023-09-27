@@ -8,4 +8,4 @@ upload:
 	twine upload dist/* 
 
 install_test:
-	pip install --index-url https://test.pypi.org/simple/ --no-deps natchecker==0.1.3
+	pip install --index-url https://test.pypi.org/simple/ --no-deps natchecker==0.2.1

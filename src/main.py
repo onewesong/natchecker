@@ -485,10 +485,10 @@ def main():
     for source_ip in source_ips:
         try:
             ip = ipaddress.ip_address(source_ip)
-            if not ip.is_private:
-                print("IP address is public: %s, skip check nat type" %
-                      source_ip)
-                source_ips.pop(source_ip)
+            #if not ip.is_private:
+            #    print("IP address is public: %s, skip check nat type" %
+            #          source_ip)
+            #    source_ips.pop(source_ip)
         except ValueError:
             raise Exception("Invalid IP address: %s" % source_ip)
 
